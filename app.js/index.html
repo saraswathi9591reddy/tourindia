@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>saraswathi Reddy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>saraswathi Reddy - Full Stack Developer</h1>
+    </nav>
+
+    <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <span>HTML/CSS</span> <span>JavaScript</span> <span>Node.js</span> <span>MongoDB</span>
+        </div>
+
+        <h2>Add a New Project</h2>
+        <form action="/add-project" method="POST">
+            <input type="text" name="title" placeholder="Project Title" required>
+            <input type="text" name="description" placeholder="Short Description" required>
+            <button type="submit">Save to MongoDB</button>
+        </form>
+    </div>
+</body>
+</html>
