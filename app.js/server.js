@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 // 1. Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/portfolioDB')
+mongoose.connect('mongodb+srv://saraswathi:saraswathireddy99024@cluster0.mongodb.net/portfolioDB')
     .then(() => console.log('✅ Database Connected'))
     .catch(err => console.log('❌ Connection Error', err));
 
